@@ -1,0 +1,109 @@
+.corTWEET {
+  width:570px;
+  padding:10px;
+  margin:auto;
+  background:white;
+  border-bottom:1px solid #E6ECF0;
+  cursor:pointer;
+  transition:all 0s ease;
+  min-height:51px;
+  font-family:'Archivo',sans-serif;
+}
+
+.corTWEET:hover {
+  background:#F5F8FA;
+}
+
+.headTWEET {
+  display:flex;
+}
+
+.vavaTWEET {
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.vavaTWEET img {
+  width:48px;
+  height:auto;
+}
+
+.droTWEET {
+  float:left;
+  width:88%;
+  margin:0px 10px;
+  font-size:13px;
+}
+
+.pseTWEET{
+  color:black;
+  font-weight:bold;
+  transition:all 0s ease;
+}
+
+.pseTWEET:hover{
+  text-decoration:underline;
+}
+
+.altTWEET{
+  color:#657786;
+}
+
+.droTWEET p {
+  margin:0;
+}
+
+.icTWEET{
+  display:flex;
+}
+
+.icTWEET span{
+  color:#657786;
+  transition:all 0s ease;
+  display:block;
+  word-spacing:5px;
+  width:15%;
+  overflow:hidden;
+  margin-top:10px;
+  font-weight:bold;
+}
+.icTWEET span::before {
+  font-family: "edgeicons";
+  font-size:20px;
+  font-weight:normal;
+}
+
+.icTWEET span:nth-child(1)::before {
+  content: "\f151";
+}
+
+.icTWEET span:nth-child(1):hover {
+  color:#42BDF6;
+}
+.icTWEET span:nth-child(2)::before {
+  content: "\f152";
+}
+
+.icTWEET span:nth-child(2):hover {
+  color:#17C47D;
+}
+
+.icTWEET span:nth-child(3)::before {
+  content: "\f148";
+}
+
+.icTWEET span:nth-child(3):hover {
+  color:#EA4E5E;
+}
+
+.icTWEET span:nth-child(4)::before {
+  content: "\f054";
+}
+
+.icTWEET span:nth-child(4):hover {
+  color:black;
+}
+
+@font-face {font-family: "edgeicons"; src: url("https://abs.twimg.com/a/1533755696/font/edge-icons-Regular.woff") format("woff"), url("../../font/edge-icons-Regular.ttf") format("truetype"); }
