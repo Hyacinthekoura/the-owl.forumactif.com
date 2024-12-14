@@ -1,0 +1,186 @@
+.body-insta {
+  width : 450px;
+  height : 800px;
+  background-color:#FFF;
+  overflow:hidden visible;
+  margin:auto;
+  font-family: "Open Sans", sans-serif;
+  color:#000;
+  border-radius:10px;
+  position:relative;
+}
+
+/* HEADER INSTAGRAM */
+
+.header-insta {
+  padding:4%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.username-insta {
+  font-weight:700;
+  font-size:1.2em;
+  justify-content:flex-start;
+  display:flex;
+  align-items:center;
+  width:70%;
+}
+
+.username-insta > span {display:inline-block;padding-left:5%; width:150px;}
+
+.right-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:30%;
+}
+
+/* PROFILE INSTAGRAM */
+
+.profile-body-insta {
+  display:flex;
+  padding:4%;
+  margin-top:6%;
+}
+
+.avatar-insta {
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  background-size:100% auto;
+  position:relative;
+  text-align:center;
+}
+
+.note-insta {
+  background-color:white;
+  border-radius:15px;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  padding:0.2em 0.7em;
+  font-size:0.8em;
+  margin-top:-10px;
+  display:inline-block;
+}
+
+.stats-insta {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  margin-left:2em;
+  justify-content:space-between;
+  width:70%;
+}
+
+.stats-insta div {
+  text-align:center;
+  font-weight:700;
+}
+
+.stats-insta div span {
+  font-weight:400;
+  font-size:0.8em;
+}
+
+.infos-insta {
+  margin:0 4%;
+}
+
+.nom-insta {
+  font-weight:700;
+  font-size:0.8em;
+}
+
+.thread-insta {
+  display:flex;
+  margin-top:0.2em;
+  align-items:center;
+  background-color:#f2f4f7;
+  padding:0.3em 0.7em;
+  border-radius:20px;
+  width:fit-content;
+}
+
+.thread-insta > span,.infos-insta > span {
+  font-size:0.8em;
+}
+
+.infos-insta img {
+  height:50px;
+  width:auto;
+}
+  
+  .website-insta {
+    color:#227fe3;
+    font-size:0.8em;
+}
+
+.alaune-insta {
+  display:flex;
+  margin:4% 4%;
+  width:100%;
+  overflow:auto;
+}
+
+.post-alaune-insta {
+  width:fit-content;
+  text-align:center;
+  margin:0 5%;
+}
+
+.post-alaune-insta > div {
+  border-radius:50%;
+  border:2px solid #f2f4f7;
+  width:60px;
+  height:60px;
+  padding:5%;
+}
+
+.post-alaune-insta > div > div {
+ width:100%;
+  height:100%;
+  background-size:100% auto;
+  border-radius:50%;
+}
+
+.post-alaune-insta span {
+  font-size:0.7em;
+}
+
+.body-posts-insta {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin:4%;
+  width:100%;
+}
+
+.body-posts-insta > div {
+  background-size:100% auto;
+  width:120px;
+  height:120px;
+  margin:1%;
+  transition:all 1s ease;
+}
+
+.menu-footer-insta {
+  position:fixed;
+  background-color:#FFF;
+  display:flex;
+  width:380px;
+  justify-content:space-around;
+  margin-top:780px;
+  padding:10px;
+  border-radius:0 0 10px 10px;
+    align-items:center;
+}
+
+.profile-pic {
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  background-size:100% auto;
+  border:2px solid #000;
+  border-radius:50%;
+}
