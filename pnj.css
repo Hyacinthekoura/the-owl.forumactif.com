@@ -1,0 +1,71 @@
+/* ---------- PNJ ---------- */
+
+/* Prénom PNJ */
+
+.npPNJ {
+  color:var(--main-red) ;
+  font-family:'Wosker', sans-serif;
+  font-size:40px;
+  text-transform:uppercase;
+  width:450px;
+  text-align:right;
+  margin-top:-60px;
+}
+
+/* Corps PNJ */
+
+.corPNJ {
+  margin:auto;
+  width:800px;
+  padding:15px;
+  background:var(--bg-dark);
+  height:340px;
+  position:relative;
+  margin-top:60px;
+  border-radius:10px;
+  border:1px solid var(--main-red);
+}
+
+/* Avatar PNJ */
+
+.vavaPNJ {
+  border:10px var(--main-bg-color) solid;
+  position:absolute;
+  right:0;
+  top:0;
+  width:385px;
+  height:385px;
+  margin-top:-60px;
+  margin-right:-60px;
+  border-radius:20px;
+  overflow:hidden;
+}
+.vavaPNJ img {
+  width:100%;
+  height:auto;
+}
+
+/* Description PNJ */
+
+.descPNJ {
+  background:var(--main-bg-color);
+  padding:10px;
+  margin-top:15px;
+  width:440px;
+  font-family:'Archivo',sans-serif;
+  color:var(--main-text-beige);
+  font-size:14px;
+  height:80px;
+  overflow:auto;
+  border-radius:6px;
+  line-height:1.4em;
+  height:320px;
+}
+
+.descPNJ span {
+  font-weight:bold;
+  font-style:italic;
+  color:var(--main-red);
+}
+
+/* ---------- FIN PNJ ---------- */
